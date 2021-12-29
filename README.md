@@ -1,7 +1,18 @@
 # LitElement TypeScript starter
 
-This project includes a sample component using LitElement with TypeScript.
+This project includes a sample component using LitElement with TypeScript, embedding ChargeBee implementation.
 
+## Error currently received
+**54-14c13e8155977c028117.js:1 Uncaught (in promise) NO_CONTAINER_ELEMENT: Container element not specified for number field
+    at x.value (https://js.chargebee.com/v2/54-14c13e8155977c028117.js:1:16437)
+    at http://localhost:8000/my-element.js:75:49**
+
+## Originial Lit project
+https://lit.dev/docs/v1/getting-started/#component-project
+
+## Cloned repo (TypeScript)
+https://github.com/lit/lit-element-starter-ts/tree/lit-element-2.x#readme
+    
 ## Setup
 
 Install dependencies:
